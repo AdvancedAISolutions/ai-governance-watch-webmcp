@@ -1,0 +1,449 @@
+{
+  "schema_version": "1.0",
+  "report_name": "Maryland AI Governance Monitor — Inaugural Daily Intelligence Report",
+  "report_date": "2026-08-22",
+  "timezone": "America/New_York",
+  "editorial_status": "Independent working prototype; not an official MRAC publication; all cards require Justin Gallucci's approval before publication.",
+  "comparison_note": "This is the inaugural report. It establishes an active baseline; no prior daily report exists for change comparison.",
+  "news_feed_cards": [
+    {
+      "unique_slug": "md-ai-implementation-workgroup-convenes-with-appointments-incomplete-2026-07-23",
+      "publication_date": "2026-07-23",
+      "underlying_event_date": "2026-07-23",
+      "headline": "Maryland AI Implementation Workgroup begins formal work with appointments still incomplete",
+      "short_deck": "The statutory workgroup adopted bylaws at its first meeting after reporting no formal meetings during its first reporting year; legislative appointments and a permanent co-chair remain unresolved in public records.",
+      "category": "Governance and institutional policy",
+      "jurisdiction": "Maryland",
+      "status": "Statutory workgroup; convened; appointments incomplete",
+      "summary": "The Workgroup on Artificial Intelligence Implementation held an inaugural virtual meeting on July 23, 2026 and adopted bylaws. Its July 1 annual report said it had not convened formal meetings during the July 2025–June 2026 reporting period because co-chairs had not been appointed and several seats were unfilled. The meeting minutes say additional legislative appointments, including co-chairs, were still pending and an in-person meeting was planned for September or early October; an exact date was not posted in this scan.",
+      "why_it_matters": "The body has a broad statutory mandate covering consequential decisions, privacy, labor, consumer protection, government benefits, and enforcement. Delayed appointments can slow the development of recommendations and blur accountability for the next annual report.",
+      "maryland_and_mrac_relevance": "This workgroup is separate from MRAC. Its subject matter overlaps MRAC focus areas, so Maryland would benefit from clear role definitions, cross-referencing of public recommendations, and an auditable handoff between advisory, legislative, and executive implementation bodies. No formal relationship is inferred.",
+      "primary_source": {
+        "name": "University of Maryland, Baltimore — Maryland Workgroup on Artificial Intelligence Implementation",
+        "url": "https://www.umaryland.edu/chhs/partnerships/md-waii/"
+      },
+      "secondary_source": {
+        "name": "Maryland Manual — Workgroup on Artificial Intelligence Implementation",
+        "url": "https://msa.maryland.gov/msa/mdmanual/26excom/html/02ai.html"
+      },
+      "exact_urls": [
+        "https://www.umaryland.edu/chhs/partnerships/md-waii/",
+        "https://www.umaryland.edu/media/umb/chhs/ai-workgroup/AI-Workgroup-Meeting-Minutes_July-23--2026.pdf",
+        "https://dlslibrary.state.md.us/publications/Universities/SF3.5-807%28h%29_2026.pdf",
+        "https://msa.maryland.gov/msa/mdmanual/26excom/html/02ai.html"
+      ],
+      "tags": [
+        "Maryland",
+        "AI workgroup",
+        "appointments",
+        "consumer protection",
+        "privacy",
+        "government benefits"
+      ],
+      "confidence": "High",
+      "image_recommendation": "Use a newly commissioned editorial illustration of an open committee table with clearly marked vacant seats, labeled as an illustration; do not reuse source-page imagery without separate permission.",
+      "image_url": null,
+      "image_creator_or_owner": null,
+      "image_license_or_usage_basis": "No image selected; reuse rights not verified.",
+      "required_attribution": null,
+      "alt_text": "Editorial illustration of a Maryland AI policy workgroup meeting with several vacant seats awaiting appointment.",
+      "editorial_approval_status": "Research complete; Justin approval required before publication"
+    },
+    {
+      "unique_slug": "maryland-legi-assist-transitions-from-pilot-2026-08",
+      "publication_date": "2026-08-12",
+      "underlying_event_date": "2026-08",
+      "headline": "Maryland’s Legi-Assist moves toward broader agency use",
+      "short_deck": "The state-built legislative analysis toolkit is transitioning beyond internal pilot testing while its open-source backend is already available to other governments.",
+      "category": "Government AI deployment",
+      "jurisdiction": "Maryland",
+      "status": "Internal pilot transitioning toward broader agency use",
+      "summary": "Maryland’s Governor’s Innovation Team says Legi-Assist downloads and structures legislative PDFs, recognizes strikethroughs, produces plain-language summaries and policy tags, and matches bills to detailed agency profiles. The state page reports that the external version supports more than 200 active users across governments and that the user interface is transitioning out of pilot testing; the same page also says the tool remains in an internal pilot and is not available to the public. The safest reading is that government-facing deployment is expanding while public release and security testing remain incomplete.",
+      "why_it_matters": "The tool could reduce missed bills and equalize staff capacity, but summaries, relevance scores, and fiscal-impact work can shape agency attention. Evaluation should test false negatives, treatment of amendments, reproducibility, security, accessibility, and human override—not just speed or adoption.",
+      "maryland_and_mrac_relevance": "Legi-Assist is a concrete test case for Maryland’s human-in-the-loop policy, state ownership, open-source reuse, TEVV, records management, and safe scale-up. MRAC relevance is analytical only; no endorsement or formal role is inferred.",
+      "primary_source": {
+        "name": "Maryland AI — Legi-Assist case study",
+        "url": "https://ai.maryland.gov/ai-maryland/ai-case-studies/legi-assist"
+      },
+      "secondary_source": null,
+      "exact_urls": [
+        "https://ai.maryland.gov/ai-maryland/ai-case-studies/legi-assist",
+        "https://ai.maryland.gov/ai-maryland/ai-case-studies"
+      ],
+      "tags": [
+        "Maryland",
+        "Legi-Assist",
+        "legislation",
+        "LLM",
+        "open source",
+        "human review",
+        "pilot"
+      ],
+      "confidence": "High, with a deployment-stage ambiguity noted",
+      "image_recommendation": "Create an AI-generated editorial illustration of a bill document flowing through a human-reviewed analysis pipeline; label it AI-generated.",
+      "image_url": null,
+      "image_creator_or_owner": null,
+      "image_license_or_usage_basis": "No image selected; source screenshots are not cleared for reuse.",
+      "required_attribution": null,
+      "alt_text": "AI-generated editorial illustration of legislative documents moving through automated analysis and a human review checkpoint.",
+      "editorial_approval_status": "Research complete; Justin approval required before publication"
+    },
+    {
+      "unique_slug": "maryland-civil-rights-committee-ai-voting-briefings-2026-09-10",
+      "publication_date": "2026-08-18",
+      "underlying_event_date": "2026-08-25",
+      "headline": "Federal civil-rights panel opens Maryland inquiry into AI and voting administration",
+      "short_deck": "A public planning meeting is set for August 25, followed by the first two-hour public briefing on September 10 and additional fall panels.",
+      "category": "Civil rights, elections, and public oversight",
+      "jurisdiction": "Maryland / United States federal",
+      "status": "Public inquiry and briefing series underway",
+      "summary": "The Maryland Advisory Committee to the U.S. Commission on Civil Rights is investigating AI and its application in voting administration. A Federal Register notice schedules a public planning meeting for August 25 at 1:00 p.m. ET. The Commission’s event page schedules the first public panel for September 10 from noon to 2:00 p.m. ET and says additional fall panels will be announced. Public comment is invited; accommodation requests should be made at least 10 days before a panel.",
+      "why_it_matters": "Election administration is a high-consequence domain where accuracy, accessibility, equal protection, security, records retention, vendor controls, and public notice intersect. The inquiry can create a Maryland-specific evidence record rather than relying only on national hypotheticals.",
+      "maryland_and_mrac_relevance": "The inquiry directly intersects Maryland governance, civil-rights, accessibility, transparency, and election-integrity priorities. It is a federal advisory process, not an MRAC proceeding, and no formal coordination is assumed.",
+      "primary_source": {
+        "name": "U.S. Commission on Civil Rights — Maryland Advisory Committee",
+        "url": "https://www.usccr.gov/advisory-committees/maryland"
+      },
+      "secondary_source": {
+        "name": "Federal Register meeting notice",
+        "url": "https://www.federalregister.gov/documents/2026/08/18/2026-16772/notice-of-public-meeting-of-the-maryland-advisory-committee-to-the-us-commission-on-civil-rights"
+      },
+      "exact_urls": [
+        "https://www.usccr.gov/advisory-committees/maryland",
+        "https://www.usccr.gov/meetings/2026/09-10-maryland-advisory-committee-invites-public-participate-virtual-panels",
+        "https://www.federalregister.gov/documents/2026/08/18/2026-16772/notice-of-public-meeting-of-the-maryland-advisory-committee-to-the-us-commission-on-civil-rights"
+      ],
+      "tags": [
+        "Maryland",
+        "voting",
+        "civil rights",
+        "accessibility",
+        "public meeting",
+        "elections"
+      ],
+      "confidence": "High",
+      "image_recommendation": "Use a rights-cleared photo of an accessible voting station or commission a neutral illustration; avoid partisan campaign imagery.",
+      "image_url": null,
+      "image_creator_or_owner": null,
+      "image_license_or_usage_basis": "No image selected; rights not verified.",
+      "required_attribution": null,
+      "alt_text": "Accessible voting station beside a public-meeting notice about artificial intelligence and election administration.",
+      "editorial_approval_status": "Research complete; Justin approval required before publication"
+    },
+    {
+      "unique_slug": "maryland-2026-ai-implementation-laws-in-effect-2026-07-01",
+      "publication_date": "2026-07-29",
+      "underlying_event_date": "2026-07-01",
+      "headline": "Three Maryland AI implementation laws move from enactment to execution",
+      "short_deck": "Maryland has placed AI-enabled 3-1-1 expansion, a statewide university partnership, and K–12 guidance and evaluation duties into law.",
+      "category": "Legislation and implementation",
+      "jurisdiction": "Maryland",
+      "status": "Enacted and effective",
+      "summary": "SB 114/Chapter 434 establishes an AI-assisted 3-1-1 program and oversight board and took effect July 1. SB 597/Chapter 633 establishes the Maryland Artificial Intelligence Partnership, a public-services fellowship, and—subject to a statutory condition—an AI Incubation Lab within the University System of Maryland; it also took effect July 1. SB 720/Chapter 634, the Artificial Intelligence Ready Schools Act, requires statewide guidance, evaluation tools, local coordination, and an AI education collaborative and took effect June 1.",
+      "why_it_matters": "The center of gravity has shifted from bill passage to implementation quality. Appointments, appropriations, procurement rules, accessibility, human review, evaluation rubrics, local capacity, and public reporting will determine whether the statutes produce accountable services.",
+      "maryland_and_mrac_relevance": "These laws create a practical agenda for monitoring public-service AI, institutional coordination, education, workforce preparation, accessibility, and TEVV. MRAC may find the implementation evidence relevant, but the monitor does not infer a statutory MRAC role beyond what controlling sources expressly state.",
+      "primary_source": {
+        "name": "Maryland General Assembly bill records",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/search/legislation"
+      },
+      "secondary_source": {
+        "name": "Maryland AI legislation overview",
+        "url": "https://ai.maryland.gov/ai-maryland/legislation"
+      },
+      "exact_urls": [
+        "https://ai.maryland.gov/ai-maryland/legislation",
+        "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0114?ys=2026RS",
+        "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0597?ys=2026RS",
+        "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0720?ys=2026rs"
+      ],
+      "tags": [
+        "Maryland",
+        "legislation",
+        "3-1-1",
+        "higher education",
+        "K-12",
+        "accessibility",
+        "implementation"
+      ],
+      "confidence": "High",
+      "image_recommendation": "Use a newly created editorial graphic with three labeled implementation lanes—3-1-1, public-service partnership, and schools—without reproducing agency logos.",
+      "image_url": null,
+      "image_creator_or_owner": null,
+      "image_license_or_usage_basis": "No image selected; rights not verified.",
+      "required_attribution": null,
+      "alt_text": "Editorial graphic showing three Maryland AI implementation lanes for 3-1-1 services, public-service partnerships, and schools.",
+      "editorial_approval_status": "Research complete; Justin approval required before publication"
+    },
+    {
+      "unique_slug": "maryland-community-business-compass-ai-expansion-2026-06-23",
+      "publication_date": "2026-06-23",
+      "underlying_event_date": "2026-06-23",
+      "headline": "Maryland expands AI-assisted funding directory to nearly 2,500 programs",
+      "short_deck": "The Community Business Compass uses Claude to review more than 72,000 web pages, with manual review before listings go live.",
+      "category": "Government AI deployment",
+      "jurisdiction": "Maryland",
+      "status": "Deployed public service; official performance claims not independently audited",
+      "summary": "The Governor’s Office says the Maryland Community Business Compass expanded from roughly 250 to nearly 2,500 funding and support programs drawn from more than 100 sources. Built in partnership with Anthropic, the system uses Claude to identify programs, gather eligibility and deadline information, and translate requirements into plain language. The state says results are manually reviewed before publication.",
+      "why_it_matters": "The use case shows a tangible accessibility and economic-mobility benefit, but the public needs durable controls for source provenance, update latency, correction requests, deadline accuracy, records retention, and measurement of who is reached or missed.",
+      "maryland_and_mrac_relevance": "This is a leading Maryland example for evaluating vendor-supported AI, human review, data minimization, accessibility, and outcome measurement. Inclusion does not imply endorsement of Anthropic, the service, or any institution.",
+      "primary_source": {
+        "name": "Office of Governor Wes Moore press release",
+        "url": "https://governor.maryland.gov/news/press-releases/governor-moore-announces-tenfold-expansion-funding-database"
+      },
+      "secondary_source": null,
+      "exact_urls": [
+        "https://governor.maryland.gov/news/press-releases/governor-moore-announces-tenfold-expansion-funding-database",
+        "https://compass.maryland.gov/incentives/"
+      ],
+      "tags": [
+        "Maryland",
+        "economic mobility",
+        "public service",
+        "Anthropic",
+        "human review",
+        "accessibility"
+      ],
+      "confidence": "High for the official description; medium for claimed outcomes",
+      "image_recommendation": "Create a labeled AI-generated illustration of a Maryland small-business owner navigating a verified funding directory; do not use vendor or state logos without permission.",
+      "image_url": null,
+      "image_creator_or_owner": null,
+      "image_license_or_usage_basis": "No image selected; rights not verified.",
+      "required_attribution": null,
+      "alt_text": "AI-generated editorial illustration of a small-business owner reviewing verified funding opportunities in a public directory.",
+      "editorial_approval_status": "Research complete; Justin approval required before publication"
+    },
+    {
+      "unique_slug": "gsa-buy-ai-onegov-pricing-and-guidance-2026-08-05",
+      "publication_date": "2026-08-05",
+      "underlying_event_date": "2026-08-05",
+      "headline": "GSA centralizes enterprise AI offers and procurement guidance",
+      "short_deck": "Federal agencies can access several sharply discounted enterprise AI offers, while GSA advises problem-first scoping, pilots, data controls, cross-functional review, and cost monitoring.",
+      "category": "Procurement, contracting, and vendors",
+      "jurisdiction": "United States federal",
+      "status": "Active procurement vehicles and time-limited promotional pricing",
+      "summary": "GSA’s updated Buy AI page lists enterprise offers from Anthropic, Google, OpenAI, Perplexity, and xAI, including multiple promotional prices that expire between September 2026 and April 2027. It also lists broader contracting vehicles and advises agencies to define mission needs, test solutions in sandboxes or pilots, manage data flows, involve technology, security, privacy, and data officials, and monitor usage costs.",
+      "why_it_matters": "Very low introductory prices can accelerate experimentation but may obscure post-promotion costs, switching costs, data portability, retention rules, downstream usage charges, and vendor concentration. Procurement evaluation should model the full lifecycle and exit path.",
+      "maryland_and_mrac_relevance": "Maryland can compare its intake and lab processes with GSA’s problem-first, pilot, data, and cost controls. Vendor names and prices are reported neutrally; inclusion does not imply endorsement, affiliation, or a Maryland purchasing decision.",
+      "primary_source": {
+        "name": "U.S. General Services Administration — Buy AI",
+        "url": "https://www.gsa.gov/artificial-intelligence/buy-ai"
+      },
+      "secondary_source": null,
+      "exact_urls": ["https://www.gsa.gov/artificial-intelligence/buy-ai"],
+      "tags": ["federal", "procurement", "GSA", "vendors", "pricing", "pilots", "data governance"],
+      "confidence": "High",
+      "image_recommendation": "Use a neutral AI-generated procurement illustration showing a price tag, checklist, and exit plan; exclude company logos.",
+      "image_url": null,
+      "image_creator_or_owner": null,
+      "image_license_or_usage_basis": "No image selected; GSA page imagery and vendor marks are not cleared for reuse.",
+      "required_attribution": null,
+      "alt_text": "Neutral editorial illustration of an AI procurement checklist with pilot, privacy, cost, and exit-plan controls.",
+      "editorial_approval_status": "Research complete; Justin approval required before publication"
+    },
+    {
+      "unique_slug": "nist-tev-athalon-ai-evaluation-draft-comments-2026-10-06",
+      "publication_date": "2026-08-07",
+      "underlying_event_date": "2026-08-07",
+      "headline": "NIST releases adaptable AI evaluation framework for public comment",
+      "short_deck": "The TEVV-Athlon draft proposes a four-stage method for customizing test, evaluation, verification, and validation across models and real-world use cases; comments close October 6.",
+      "category": "Research, standards, and technical evaluation",
+      "jurisdiction": "United States federal",
+      "status": "Initial public draft; comments open through 2026-10-06",
+      "summary": "NIST AI 200-2 introduces a flexible framework for designing customized AI assessments around organizational objectives, events, tools, and measurement concepts. NIST says it is intended to work across statistical models, large language models, multimodal systems, and agents. The 60-day comment period closes October 6, 2026.",
+      "why_it_matters": "Public agencies often need evidence tailored to a specific service rather than a single universal benchmark. The draft could help link mission goals, failure modes, user impacts, and monitoring evidence, but it remains a draft and requires practical validation.",
+      "maryland_and_mrac_relevance": "TEVV is an explicit MRAC focus area and is directly relevant to Maryland’s AI intake, Innovation Lab, Legi-Assist, 3-1-1 expansion, education tools, and procurement reviews. This relevance is substantive, not evidence of formal involvement.",
+      "primary_source": {
+        "name": "National Institute of Standards and Technology — TEVV-Athlon",
+        "url": "https://www.nist.gov/artificial-intelligence/ai-research/tevv-athlon-framework-evaluating-ai-systems"
+      },
+      "secondary_source": null,
+      "exact_urls": [
+        "https://www.nist.gov/artificial-intelligence/ai-research/tevv-athlon-framework-evaluating-ai-systems",
+        "https://doi.org/10.6028/NIST.AI.200-2.ipd"
+      ],
+      "tags": ["NIST", "TEVV", "evaluation", "standards", "public comment", "AI RMF"],
+      "confidence": "High",
+      "image_recommendation": "Commission a clean editorial diagram of an evaluation loop; do not reuse NIST graphics without a page-specific rights check.",
+      "image_url": null,
+      "image_creator_or_owner": null,
+      "image_license_or_usage_basis": "No image selected; rights not verified.",
+      "required_attribution": null,
+      "alt_text": "Editorial diagram of an AI evaluation loop connecting objectives, tests, evidence, findings, and monitoring.",
+      "editorial_approval_status": "Research complete; Justin approval required before publication"
+    },
+    {
+      "unique_slug": "nist-nvd-modernization-ai-rfi-2026-10-13",
+      "publication_date": "2026-08-12",
+      "underlying_event_date": "2026-08-12",
+      "headline": "NIST asks how AI should reshape the National Vulnerability Database",
+      "short_deck": "The RFI seeks input on responsible automation, human review, auditability, machine-readable data, and safeguards for AI-generated remediation; comments close October 13.",
+      "category": "Cybersecurity and technical infrastructure",
+      "jurisdiction": "United States federal",
+      "status": "Request for information; comments open through 2026-10-13 11:59 p.m. ET",
+      "summary": "NIST is seeking input on modernizing the National Vulnerability Database as AI accelerates vulnerability discovery, triage, exploitation, and remediation. Questions address which tasks should be automated, where human review is required, how AI-driven prioritization can be transparent and auditable, and what safeguards are needed to prevent erroneous AI-generated remediations.",
+      "why_it_matters": "NVD data underpins public and private security operations. Poorly governed automation could amplify bad data or unsafe remediation at machine speed, while responsible automation could reduce backlogs and improve timeliness.",
+      "maryland_and_mrac_relevance": "Maryland agencies, local governments, critical infrastructure operators, and procurement teams depend on vulnerability data and would benefit from auditable, accessible, human-supervised automation. The topic aligns with privacy, security, and infrastructure monitoring priorities.",
+      "primary_source": {
+        "name": "Federal Register — NIST NVD modernization RFI",
+        "url": "https://www.federalregister.gov/documents/2026/08/12/2026-16371/request-for-information-rfi-on-modernizing-the-national-vulnerability-database-in-the-age-of"
+      },
+      "secondary_source": null,
+      "exact_urls": [
+        "https://www.federalregister.gov/documents/2026/08/12/2026-16371/request-for-information-rfi-on-modernizing-the-national-vulnerability-database-in-the-age-of",
+        "https://www.regulations.gov/docket/NIST-2026-0100"
+      ],
+      "tags": ["NIST", "NVD", "cybersecurity", "automation", "human review", "public comment"],
+      "confidence": "High",
+      "image_recommendation": "Use a neutral AI-generated illustration of machine-readable vulnerability records with a human approval gate.",
+      "image_url": null,
+      "image_creator_or_owner": null,
+      "image_license_or_usage_basis": "No image selected; rights not verified.",
+      "required_attribution": null,
+      "alt_text": "Machine-readable cybersecurity records moving through automated analysis and a human approval checkpoint.",
+      "editorial_approval_status": "Research complete; Justin approval required before publication"
+    },
+    {
+      "unique_slug": "eu-ai-act-enforcement-and-transparency-rules-begin-2026-08-02",
+      "publication_date": "2026-07-31",
+      "underlying_event_date": "2026-08-02",
+      "headline": "EU AI Act enforcement and new transparency duties begin",
+      "short_deck": "The EU AI Office and national authorities have begun enforcement, including disclosure for human–AI interaction and labeling or machine-readable marking in specified synthetic-content cases.",
+      "category": "International regulation and enforcement",
+      "jurisdiction": "European Union",
+      "status": "Applicable and under enforcement, with specified exceptions and later high-risk timelines",
+      "summary": "From August 2, 2026, the European Commission’s AI Office and national authorities began enforcing the AI Act. Article 50 transparency duties require notice when people interact directly with certain AI systems and labeling or machine-readable marking for specified deepfakes and AI-generated or manipulated content. Some high-risk-system obligations have later application dates, so the Act should not be described as uniformly complete across every category.",
+      "why_it_matters": "The EU is moving from framework design to complaints, whistleblowing, labeling, and enforcement. Its practical tools and exceptions can provide implementation evidence for U.S. states even where the legal duties do not apply directly.",
+      "maryland_and_mrac_relevance": "Maryland can study user notice, synthetic-content provenance, complaint intake, whistleblower channels, and phased enforcement as governance models or warnings. The EU regime is not Maryland law.",
+      "primary_source": {
+        "name": "European Commission — AI Act enforcement announcement",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"
+      },
+      "secondary_source": {
+        "name": "EU AI Act policy page",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+      },
+      "exact_urls": [
+        "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+      ],
+      "tags": ["EU", "AI Act", "enforcement", "transparency", "deepfakes", "provenance"],
+      "confidence": "High",
+      "image_recommendation": "Create an original editorial illustration of a transparency label and complaint channel; do not reuse the Commission press image without confirming terms.",
+      "image_url": null,
+      "image_creator_or_owner": null,
+      "image_license_or_usage_basis": "No image selected; rights not verified.",
+      "required_attribution": null,
+      "alt_text": "Editorial illustration of an AI transparency label, machine-readable mark, and public complaint channel.",
+      "editorial_approval_status": "Research complete; Justin approval required before publication"
+    },
+    {
+      "unique_slug": "pennsylvania-data-center-grid-executive-order-2026-08-18",
+      "publication_date": "2026-08-18",
+      "underlying_event_date": "2026-08-18",
+      "headline": "Pennsylvania ties data-center permits and tax benefits to enforceable community safeguards",
+      "short_deck": "Executive Order 2026-05 removes data centers from fast-track permitting, bars nondisclosure agreements, requires local approval, and links support to energy, water, workforce, transparency, and community commitments.",
+      "category": "Energy, infrastructure, and economic development",
+      "jurisdiction": "Pennsylvania",
+      "status": "Executive order; effective immediately; implementation and legal durability to monitor",
+      "summary": "Pennsylvania’s governor directed agencies to apply Responsible Infrastructure Development requirements to data-center proposals. The order conditions favorable permit handling and tax treatment on legally enforceable commitments, requires local approvals, removes all data centers from the fast-track program, prohibits nondisclosure agreements, calls for reporting on energy and water use, and creates a public project map. The official announcement says the state is aware of more than 100 proposals in public databases and that 58 projects had engaged with environmental regulators.",
+      "why_it_matters": "The action connects AI infrastructure growth to ratepayer protection, local control, water and energy disclosure, community benefits, labor, and transparency. It is a concrete state model, but its implementation, permitting outcomes, and legal durability still need independent review.",
+      "maryland_and_mrac_relevance": "Maryland shares the PJM regional grid and faces similar infrastructure, affordability, water, land-use, and economic-development questions. Pennsylvania’s reporting, no-NDA, local-approval, and growth-pays-for-growth approach merits comparison with Maryland policy.",
+      "primary_source": {
+        "name": "Commonwealth of Pennsylvania — Governor’s data-center executive order announcement",
+        "url": "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-signs-executive-order-on-data-center-developmen"
+      },
+      "secondary_source": null,
+      "exact_urls": [
+        "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-signs-executive-order-on-data-center-developmen"
+      ],
+      "tags": [
+        "Pennsylvania",
+        "data centers",
+        "energy",
+        "water",
+        "local government",
+        "transparency",
+        "PJM"
+      ],
+      "confidence": "High for the order and official requirements; outcomes not yet established",
+      "image_recommendation": "Commission an original regional-infrastructure illustration showing a data center, grid, water, and local public meeting; label it as an illustration.",
+      "image_url": null,
+      "image_creator_or_owner": null,
+      "image_license_or_usage_basis": "No image selected; rights not verified.",
+      "required_attribution": null,
+      "alt_text": "Editorial illustration of a data center connected to power and water systems beside a local public meeting.",
+      "editorial_approval_status": "Research complete; Justin approval required before publication"
+    },
+    {
+      "unique_slug": "california-ai-cyber-defense-program-2026-08-10",
+      "publication_date": "2026-08-10",
+      "underlying_event_date": "2026-08-10",
+      "headline": "California directs every state agency to designate an AI cybersecurity officer",
+      "short_deck": "A new AI Cyber Defense Program will coordinate AI-enabled defenses, local-government support, critical-infrastructure protection, and incident preparedness.",
+      "category": "Cybersecurity and government operations",
+      "jurisdiction": "California",
+      "status": "Executive action and program announcement; implementation pending",
+      "summary": "California’s governor directed agencies to establish an AI Cyber Defense Program within the California Cybersecurity Integration Center, expand access to advanced defenses for local governments and critical infrastructure, and designate an AI Cybersecurity Officer in every state agency. The announcement frames AI as both a defensive tool and an accelerating threat source.",
+      "why_it_matters": "The model assigns explicit ownership across agencies and links state, local, and critical-infrastructure response. Its effectiveness will depend on authority, staffing, incident reporting, access controls, model security, and measurable assistance to smaller jurisdictions.",
+      "maryland_and_mrac_relevance": "Maryland could compare this officer model with its chief information security, privacy, AI enablement, and agency governance structure, particularly for counties, municipalities, election systems, utilities, and benefits platforms.",
+      "primary_source": {
+        "name": "Office of Governor Gavin Newsom — AI Cyber Defense Program",
+        "url": "https://www.gov.ca.gov/2026/08/10/governor-newsom-announces-new-ai-cyber-defense-program-to-protect-californias-critical-infrastructure/"
+      },
+      "secondary_source": null,
+      "exact_urls": [
+        "https://www.gov.ca.gov/2026/08/10/governor-newsom-announces-new-ai-cyber-defense-program-to-protect-californias-critical-infrastructure/"
+      ],
+      "tags": [
+        "California",
+        "cybersecurity",
+        "critical infrastructure",
+        "local government",
+        "accountability"
+      ],
+      "confidence": "High for the directive; outcomes not yet established",
+      "image_recommendation": "Use an original editorial illustration of a state network protected by a human-led cyber operations team; no seals or logos.",
+      "image_url": null,
+      "image_creator_or_owner": null,
+      "image_license_or_usage_basis": "No image selected; rights not verified.",
+      "required_attribution": null,
+      "alt_text": "Editorial illustration of a human-led cyber operations team protecting state and local infrastructure networks.",
+      "editorial_approval_status": "Research complete; Justin approval required before publication"
+    },
+    {
+      "unique_slug": "ftc-proposed-ai-accuracy-policy-state-preemption-2026-07-01",
+      "publication_date": "2026-07-01",
+      "underlying_event_date": "2026-07-01",
+      "headline": "FTC proposes AI-accuracy policy with implications for state regulation",
+      "short_deck": "The draft says undisclosed manipulation of AI outputs may be unfair or deceptive and argues that conflicting state requirements may be preempted; the comment period closed July 31 and a final policy is pending.",
+      "category": "Enforcement policy and federal–state relations",
+      "jurisdiction": "United States federal",
+      "status": "Proposed policy statement; comment period closed; final action pending",
+      "summary": "The FTC’s proposed policy statement addresses representations about AI objectivity and accuracy and says undisclosed distortion of outputs for ideological objectives could violate Section 5 of the FTC Act. The proposal also asserts implied preemption to the extent a state law conflicts with a federal regulatory scheme. The Commission vote authorizing notice was 2–0; comments were due July 31.",
+      "why_it_matters": "The proposal could influence consumer-protection theories, model disclosures, vendor claims, and federal challenges to state AI laws. Because it is not final, its legal scope and enforcement effect remain uncertain.",
+      "maryland_and_mrac_relevance": "Maryland policymakers should track whether a final statement changes consumer-protection enforcement or creates conflict arguments affecting state AI requirements. The monitor should preserve neutral status labels and distinguish the Commission’s proposal from settled law.",
+      "primary_source": {
+        "name": "Federal Trade Commission — proposed AI accuracy policy statement",
+        "url": "https://www.ftc.gov/legal-library/browse/federal-trade-commissions-proposed-policy-statement-concerning-suppression-accuracy-artificial"
+      },
+      "secondary_source": {
+        "name": "FTC press release",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy"
+      },
+      "exact_urls": [
+        "https://www.ftc.gov/legal-library/browse/federal-trade-commissions-proposed-policy-statement-concerning-suppression-accuracy-artificial",
+        "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy"
+      ],
+      "tags": ["FTC", "consumer protection", "accuracy", "state preemption", "proposed policy"],
+      "confidence": "High for proposal status; legal effect remains uncertain",
+      "image_recommendation": "Create a neutral editorial illustration of an AI output passing through accuracy, disclosure, and legal-review checks; avoid ideological symbols.",
+      "image_url": null,
+      "image_creator_or_owner": null,
+      "image_license_or_usage_basis": "No image selected; rights not verified.",
+      "required_attribution": null,
+      "alt_text": "Neutral illustration of an AI output moving through accuracy, disclosure, and legal-review checks.",
+      "editorial_approval_status": "Research complete; Justin approval required before publication"
+    }
+  ]
+}

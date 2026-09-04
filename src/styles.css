@@ -1,0 +1,199 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Maryland AI Governance Monitor — design system.
+ *
+ * Direction: restrained civic-intelligence newsroom. Warm paper background,
+ * deep ink-navy text, restrained Maryland-inspired red and gold accents,
+ * and a teal accent reserved for research/standards material. No flag
+ * reproduction, seals, or partisan framing.
+ *
+ * Typography: local system font stacks only — Iowan Old Style / Georgia
+ * for display serif, system-ui / Segoe UI / Arial for body. No external
+ * font or asset requests are made at runtime.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+  --color-signal-red: var(--signal-red);
+  --color-signal-red-foreground: var(--signal-red-foreground);
+  --color-signal-gold: var(--signal-gold);
+  --color-signal-gold-foreground: var(--signal-gold-foreground);
+  --color-signal-teal: var(--signal-teal);
+  --color-signal-teal-foreground: var(--signal-teal-foreground);
+  --color-paper-raised: var(--paper-raised);
+  --color-ink-soft: var(--ink-soft);
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-display);
+  --font-mono: var(--font-ledger);
+}
+
+:root {
+  --radius: 0.5rem;
+
+  /* Typography (loaded via <link> in the root route head) */
+  --font-display:
+    "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-ledger: "SFMono-Regular", "Roboto Mono", ui-monospace, Menlo, monospace;
+
+  /* Warm paper + ink navy */
+  --background: oklch(0.975 0.006 90);
+  --foreground: oklch(0.265 0.045 262);
+  --paper-raised: oklch(0.99 0.004 90);
+  --ink-soft: oklch(0.42 0.03 262);
+
+  --card: oklch(0.99 0.004 90);
+  --card-foreground: oklch(0.265 0.045 262);
+  --popover: oklch(0.99 0.004 90);
+  --popover-foreground: oklch(0.265 0.045 262);
+
+  /* Deep navy primary */
+  --primary: oklch(0.32 0.06 262);
+  --primary-foreground: oklch(0.975 0.006 90);
+
+  --secondary: oklch(0.94 0.01 250);
+  --secondary-foreground: oklch(0.32 0.06 262);
+  --muted: oklch(0.945 0.008 90);
+  --muted-foreground: oklch(0.44 0.025 262);
+  --accent: oklch(0.93 0.02 85);
+  --accent-foreground: oklch(0.3 0.05 262);
+
+  /* Maryland-inspired signal accents (not the flag) */
+  --signal-red: oklch(0.5 0.16 27);
+  --signal-red-foreground: oklch(0.985 0.005 90);
+  --signal-gold: oklch(0.78 0.12 88);
+  --signal-gold-foreground: oklch(0.28 0.04 80);
+  --signal-teal: oklch(0.52 0.08 205);
+  --signal-teal-foreground: oklch(0.985 0.005 90);
+
+  --destructive: oklch(0.5 0.16 27);
+  --destructive-foreground: oklch(0.985 0.005 90);
+  --border: oklch(0.885 0.01 80);
+  --input: oklch(0.885 0.01 80);
+  --ring: oklch(0.52 0.08 205);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: var(--color-signal-gold);
+    color: var(--color-signal-gold-foreground);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Skip-to-content link */
+  .skip-link {
+    position: absolute;
+    left: 1rem;
+    top: -100%;
+    z-index: 50;
+    border-radius: var(--radius-md);
+    background: var(--color-primary);
+    color: var(--color-primary-foreground);
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: top 150ms ease;
+  }
+  .skip-link:focus-visible {
+    top: 1rem;
+  }
+
+  /* Masthead rule: thin navy line over a gold hairline */
+  .masthead-rule {
+    height: 4px;
+    background: linear-gradient(
+      to bottom,
+      var(--color-primary) 0 2px,
+      var(--color-signal-gold) 2px 3px,
+      transparent 3px
+    );
+  }
+
+  /* Ledger-style data label */
+  .data-label {
+    font-family: var(--font-ledger);
+    font-size: 0.6875rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-muted-foreground);
+  }
+
+  /* Signal-dot radar motif, CSS only */
+  .signal-field {
+    background-image:
+      radial-gradient(circle at 1px 1px, oklch(0.32 0.06 262 / 0.12) 1px, transparent 0),
+      radial-gradient(circle at 1px 1px, oklch(0.5 0.16 27 / 0.08) 1px, transparent 0);
+    background-size:
+      22px 22px,
+      46px 46px;
+    background-position:
+      0 0,
+      11px 17px;
+  }
+}
